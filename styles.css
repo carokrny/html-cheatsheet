@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(19, 45, 66);
+    font-family: Verdana;
+    color: whitesmoke;
+}
+
+header{
+    background-color: whitesmoke;
+    color: rgb(19, 45, 66);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+a {
+    color: burlywood;
+}
+
+table {
+    background-color: whitesmoke;
+    color:rgb(19, 45, 66);
+    border-left: 1px solid burlywood;
+    border-right: 1px solid burlywood;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 1px solid  burlywood;
+    color: black;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid  burlywood;
+    color: black;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 16px;
+    background-color: lightgray;
+}

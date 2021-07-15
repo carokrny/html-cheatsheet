@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheatsheet</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>HTML Quick Reference Guide</h1>
+            <p>A quick refernce guide for commonly used HTML tags.</p>
+        </header>
+        <main>
+            <article>
+                <h2>Semantic HTML</h2>
+                <table>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;article&gt;</span>
+                            </td>
+                            <td>Article</td>
+                            <td>Used to hold content that makes sense independently.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;aside&gt;</span>
+                            </td>
+                            <td>Aside</td>
+                            <td>Used to contain additional information that is not required.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;figure&gt;</span>
+                            </td>
+                            <td>Figure</td>
+                            <td>Used to encapsulate media of any type.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;figcaption&gt;</span>
+                            </td>
+                            <td>Figure Caption</td>
+                            <td>Used within <span class="code">&lt;figure&gt;</span> to provide a description of the media.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;footer&gt;</span>
+                            </td>
+                            <td>Footer</td>
+                            <td>Can be used at the bottom of any container to provide a footer.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;header&gt;</span>
+                            </td>
+                            <td>Header</td>
+                            <td>Can be used at the top of any container to provide a heading.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;main&gt;</span>
+                            </td>
+                            <td>Main</td>
+                            <td>Can be used to designate the main portion of a container.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;nav&gt;</span>
+                            </td>
+                            <td>Navigation</td>
+                            <td>Used to contain navigation links.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;section&gt;</span>
+                            </td>
+                            <td>Section</td>
+                            <td>Used to contain content of the same theme.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h2>HTML Table Tags</h2>
+                <table>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;table&gt;</span>
+                            </td>
+                            <td>Table</td>
+                            <td>A container for the table content.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;thead&gt;</span>
+                            </td>
+                            <td>Table Header</td>
+                            <td>Nested in <span class="code">&lt;table&gt;</span> to define the column headings of the table.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;tbody&gt;</span>
+                            </td>
+                            <td>Table Body</td>
+                            <td>Nested in <span class="code">&lt;table&gt;</span> to define the body of the table.</td>
+                        </tr><tr>
+                            <td>
+                                <span class="code">&lt;tfoot&gt;</span>
+                            </td>
+                            <td>Table Footer</td>
+                            <td>Nested in <span class="code">&lt;table&gt;</span> to use table rows for footer content.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;tr&gt;</span>
+                            </td>
+                            <td>Table Row</td>
+                            <td>Nested in a <span class="code">&lt;thead&gt;</span>, <span class="code">&lt;tbody&gt;</span>, or <span class="code">&lt;tfoot&gt;</span> element to define a table row.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;th&gt;</span>
+                            </td>
+                            <td>Table Heading</td>
+                            <td>Nested in a <span class="code">&lt;tr&gt;</span> element to add a title to a column.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;td&gt;</span>
+                            </td>
+                            <td>Table Data</td>
+                            <td>Nested in a <span class="code">&lt;tr&gt;</span> element to add data to a column.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h2>Other HTML Tags</h2>
+                <table>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;a&gt;</span>
+                            </td>
+                            <td>Anchor</td>
+                            <td>Used to include hyperlinks in an HTML document using attribute <span class="code">href</span>.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;audio&gt;</span>
+                            </td>
+                            <td>Audio</td>
+                            <td>Used to embed audio using <span class="code">src</span> to link the audio.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;br&gt;</span>
+                            </td>
+                            <td>Line Break</td>
+                            <td>Creates a line break in text. Self-closing tag.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;div&gt;</span>
+                            </td>
+                            <td>Division</td>
+                            <td>Used as a container that divides the HTML document into related content.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;em&gt;</span>
+                            </td>
+                            <td>Emphasis</td>
+                            <td>Used to emphasize text, usually italics by default.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;embed&gt;</span>
+                            </td>
+                            <td>Embed</td>
+                            <td>Used to embed any media using <span class="code">src</span>. Self-closing tag.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;img&gt;</span>
+                            </td>
+                            <td>Image</td>
+                            <td>Used to embed an image using <span class="code">src</span> to link image. Self-closing tag.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;li&gt;</span>
+                            </td>
+                            <td>List Item</td>
+                            <td>Used to create list items inside <span class="code">&lt;ul&gt;</span> and <span class="code">&lt;ol&gt;</span>.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;ol&gt;</span>
+                            </td>
+                            <td>Ordered List</td>
+                            <td>Used to create a list in sequential order. Default is numbered list items.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;span&gt;</span>
+                            </td>
+                            <td>Span</td>
+                            <td>An inline container to group text for styling purposes.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;strong&gt;</span>
+                            </td>
+                            <td>Strong</td>
+                            <td>Used to highlight text, usually bold by default.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;title&gt;</span>
+                            </td>
+                            <td>Title</td>
+                            <td>Contains text that is displayed in the page's tab in the broswer.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;ul&gt;</span>
+                            </td>
+                            <td>Unordered List</td>
+                            <td>Used to create a list without a particular order. Default is bullet points.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">&lt;video&gt;</span>
+                            </td>
+                            <td>Video</td>
+                            <td>Used to embed a video using <span class="code">src</span> to link video.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </main>
+        <footer>
+            <p>This quick reference guide was inspired by Codecademy's Build Your Own Cheatsheet Project. Sources for content include Codecademy's <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-web-development-fundamentals/modules/fecp-learn-html-elements/cheatsheet" target="_blank">HTML Elements</a>, <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-web-development-fundamentals/modules/fecp-learn-html-structure/cheatsheet" target="_blank">HTML Strucuture</a>, <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-web-development-fundamentals/modules/fscp-learn-html-tables/cheatsheet" target="_blank">HTML Tables</a>, and <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-web-development-fundamentals/modules/fecp-semantic-HTML/cheatsheet" target="_blank">Semantic HTML</a> Cheatsheets.</p>
+        </footer>
+    </body>
+</html>
