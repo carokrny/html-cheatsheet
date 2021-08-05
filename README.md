@@ -18,6 +18,4 @@ This project is created with:
 * Chrome DevTools 
 
 ## Setup 
-To view this project:
-1. download zip 
-2. open index.html in a browser
+To view this project visit https://carokrny.github.io/html-cheatsheet/
